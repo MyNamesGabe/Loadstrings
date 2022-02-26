@@ -14,7 +14,7 @@ if game.PlaceId == 537413528 then
         		    c.Value = true
 	            elseif c.Name == "FireRate" or c.Name == "BFireRate" then
 		            c.Value = 0.02 -- don't set this lower than 0.02 or else your game will crash
-            end
+        end
         end
     end
 end
